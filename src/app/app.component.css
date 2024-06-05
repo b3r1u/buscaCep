@@ -1,0 +1,14 @@
+.principal {
+    width: 75em;
+    margin-top: 8em;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 78px 26px 21px -11px rgba(0,0,0,1);
+}
+
+app-form,
+app-logo-cep {
+  flex: 1; 
+  margin: 0 10px; 
+}

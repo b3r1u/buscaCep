@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { FormComponent } from './components/form/form.component';
 import { LogoCepComponent } from './components/logo-cep/logo-cep.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
@@ -21,6 +22,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatProgressSpinnerModule
   ],
   providers: [],
