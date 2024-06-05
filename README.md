@@ -1,27 +1,34 @@
-# BuscaCep
+<h1 align="center"> Busca CEP - Angular </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+![alt text](image/image.png)
 
-## Development server
+## Descrição: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é uma aplicação em Angular para buscar informações de endereço com base no CEP informado no campo principal. 
 
-## Code scaffolding
+![alt text](image/campoPrincipal.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
+- Busca de endereço po CEP 
+- Exibição de dados como logradouro, bairro, localidade e UF
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![alt text](image/respondeDados.png)
 
-## Running unit tests
+## Como usar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone o repositório
 
-## Running end-to-end tests
+git clone https://github.com/usuario/repositorio.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navegue até o diretório do projeto
 
-## Further help
+cd repositorio
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Instale as dependências
+
+npm install 
+
+4. Execute o projeto
+
+ng serve
