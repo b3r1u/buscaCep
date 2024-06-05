@@ -1,0 +1,94 @@
+.box {
+    background-color: aliceblue;
+    width: 36em;
+    height: 40em;
+    text-align: left;
+    margin-right: 0;
+}
+
+.search {
+    margin-left: 7em;
+    padding-top: 4em;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f365f;
+}
+
+.search input {
+    padding: 10px;
+    width: 18em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px 22px 21px -13px rgba(204,204,204,1);
+}
+
+.search input:focus {
+    background-color: rgb(215, 225, 234);
+    border: none;
+    outline: none; 
+}
+
+button {
+    margin-left: 8px;
+    height: 35px;
+    width: 70px;
+    background-color: #2f365f;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.get {
+    transition: 0.5s;
+}
+
+.get:hover {
+    background-color: #191d36;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.results {
+    margin-top: 5em;
+    margin-left: 7em;
+}
+
+.results label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem; 
+  }
+  
+.results input {
+    padding: 10px;
+    width: 24em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px 22px 21px -13px rgba(204,204,204,1); 
+    background-color: #fff;
+    margin-bottom: 1rem; 
+}
+
+label {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+mat-progress-spinner {
+    display: block;
+    margin: 0 auto;
+    margin-right: 15em;
+    margin-top: 7em;
+}
+
+.error {
+    margin-left: 5px;
+    margin-top: 7px;
+    padding-left: 5px;
+    color: red;
+    border-left: 3px solid red;
+}
+
+

@@ -1,1 +1,26 @@
-<p>form works!</p>
+<div class="box">
+
+    <form (ngSubmit)="buscandoCep(cepInput.value)" class="search">
+        <h1>Buscar Endereço</h1>
+        <br>
+        <input type="text" placeholder="CEP" #cepInput mask="00000-000" required>
+        <button class="get" type="submit">Buscar</button>
+
+        <div class="error" *ngIf="cepInvalido" >
+            Sem resultados. Por favor, insira um CEP válido.
+        </div>
+    </form>
+
+    <div class="results" *ngIf="resultadoDisponivel">
+        <label>Logradouro:</label>
+        <input type="text" placeholder="Logradouro" disabled [(ngModel)]="logradouro">
+        <label>Bairro:</label>
+        <input type="text" placeholder="Bairro" disabled [(ngModel)]="bairro">
+        <label>Localidade:</label>
+        <input type="text" placeholder="Localidae" disabled [(ngModel)]="localidade">
+        <label>UF:</label>
+        <input type="text" placeholder="UF" disabled [(ngModel)]="uf">
+    </div>
+
+
+</div>
