@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import { CepService } from 'src/app/services/cep.service';
 import { CepResponse } from 'src/app/interface/cep-response';
 
-
-
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',

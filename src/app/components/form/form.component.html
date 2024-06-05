@@ -6,6 +6,8 @@
         <input type="text" placeholder="CEP" #cepInput mask="00000-000" required>
         <button class="get" type="submit">Buscar</button>
 
+        <mat-progress-spinner *ngIf="loading" mode="indeterminate"></mat-progress-spinner>
+
         <div class="error" *ngIf="cepInvalido" >
             Sem resultados. Por favor, insira um CEP válido.
         </div>
