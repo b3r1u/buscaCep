@@ -1,0 +1,84 @@
+[33mcommit 2442c9bd8abe2f342a8266651de6eec51afd90d4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/feature-Form[m[33m, [m[1;32mfeature-Form[m[33m)[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 14:01:19 2024 -0300
+
+    chore: Instalação da biblioteca NgxMask para utilizar mascara de CEP no campo principal
+
+[33mcommit 0e8f2238d9eb83b5eb378082c361716cd51cce20[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:56:46 2024 -0300
+
+    feat: Finalizando a configuração da tela root com os dois componentes em conjunto
+
+[33mcommit 414e993099cd25177c326544c6fd52cb3aeea321[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:47:47 2024 -0300
+
+    feat: Importando os componentes Form e Logo-CEP no root da aplicação Angular
+
+[33mcommit 2fff0ac809cbfba99d98826c5514404398f6034c[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:46:30 2024 -0300
+
+    feat: Adicionando ao Componente de logo, a arte para compor o Form de BuscaCEP
+
+[33mcommit 5f11706327d50264f643733443dacd1db68e9408[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:43:41 2024 -0300
+
+    feat: Adicionando material de Spinner Loading do Materialize
+
+[33mcommit 02cad0efefa718ab74d3a07ff7f38fe508faaceb[m
+Merge: 5ffcd9b 7c42ecd
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:39:36 2024 -0300
+
+    Merge da branch 'feature-service-cep' com feature-Form
+
+[33mcommit 5ffcd9b38fe10b4f6b2c520f24700ab56dc66681[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:28:06 2024 -0300
+
+    feat: Criando formulário para reber o CEP e também adicionado os tratamentos de interação de campos com ngModel
+
+[33mcommit 7c42ecd243ac3ff4127b6ef13a3f85422924f2c6[m[33m ([m[1;31morigin/feature-service-cep[m[33m, [m[1;32mfeature-service-cep[m[33m)[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:21:52 2024 -0300
+
+    feat: Construção da interface para tipar os dados recebidos/enviados
+
+[33mcommit 133223bf5a4cfcc61097729234c62c0a54c09b58[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:20:41 2024 -0300
+
+    feat: Construção da lógica de requisição htttp para a API de BuscaCEP
+
+[33mcommit 16214fd75673ba011452ae2b4465f5fee04e1f0d[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:18:50 2024 -0300
+
+    feat: Criação da interface para tipar formato dos dados que será recebido da requisição da API
+
+[33mcommit 87c413468ba912eed19e0cd18e7b99326a19256f[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:16:39 2024 -0300
+
+    feat: Criando Serviço para requisições da API BuscaCep
+
+[33mcommit 55eaa800265fd64721192ae52c07844c739fbc88[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:13:12 2024 -0300
+
+    feat: Adicionando a Pasta de Components o componente de logo que fará parte do Form
+
+[33mcommit f051889ac2cbb14242ef3902e5f06582d6e4e3bc[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 13:05:38 2024 -0300
+
+    Adicionando Pasta raiz de componentes e criando o primeiro componente Form
+
+[33mcommit 2ff4be2d7042c93492c90323c8ab36a0028bec71[m
+Author: Robérioe <roberioalbuquerque.neto@gmail.com>
+Date:   Wed Jun 5 12:51:51 2024 -0300
+
+    initial commit
